@@ -2,9 +2,10 @@
   "name": "dev-assist",
   "displayName": "Dev Assist",
   "description": "dev assist",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher":"tutu",
   "license": "MIT",
+  "icon": "logo.png",
   "repository": {
 		"type": "git",
 		"url": "https://github.com/xiaoxiaocoder/dev-assist"

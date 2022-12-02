@@ -8,13 +8,13 @@ This is a assist to help you imporve coding exprience and efficiency that contai
 
 `Shift+Ctrl+V` and input **Code To Sinppet**
 
-![](./images/code2sinppet.gif)
+![](https://github.com/xiaoxiaocoder/dev-assist/blob/main/images/code2sinppet.gif)
 
 ### parse sinppet body to code
 
 `Shift+Ctrl+V` and input **Sinppet To Code **
 
-![](./images/snippet2code.gif)
+![](https://github.com/xiaoxiaocoder/dev-assist/blob/main/images/snippet2code.gif)
 
 
 ## Known Issues
@@ -23,6 +23,9 @@ have no idea now.
 
 ## Release Notes
 
+### 0.0.2
+
+Add Icon and README gifs
 
 ### 0.0.1
 
