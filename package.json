@@ -3,6 +3,12 @@
   "displayName": "Dev Assist",
   "description": "dev assist",
   "version": "0.0.1",
+  "publisher":"tutu",
+  "license": "MIT",
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/xiaoxiaocoder/dev-assist"
+	},
   "engines": {
     "vscode": "^1.0.0"
   },
@@ -28,7 +34,10 @@
     ]
   },
   "scripts": {
-    "vscode:prepublish": "pnpm run compile",
+    "vscode:prepublish": "npm run esbuild-base -- --minify",
+    "esbuild-base": "esbuild ./src/extension.ts --bundle --outfile=out/main.js --external:vscode --format=cjs --platform=node",
+    "package": "pnpm vsce package --no-dependencies",
+    "publish": "pnpm vsce publish --no-dependencies",
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
     "pretest": "pnpm run compile && pnpm run lint",
